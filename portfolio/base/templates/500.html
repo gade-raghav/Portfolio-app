@@ -1,0 +1,15 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>500 error page</title>
+    <link href="{% static '/css/main.css/' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <div class="jumbotron">
+    <h1 class="display-4">There is an issue</h1>
+    <hr class="my-4">
+    <p>Check wheather all your public github repos have description filled. In case they are empty, remove description from views.py and retry. : )</p>
+  </div>
+</body>
